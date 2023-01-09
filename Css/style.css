@@ -1,0 +1,268 @@
+/* All Common Css Starts------ */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ button{
+    background: tomato;
+    border: 1px solid tomato;
+    border-radius: 22px;
+}
+.overlay{
+    padding: 40px 0px;
+    background: hsl( 0 0% 0% /0.7);
+}
+/* All Common Css End------ */
+
+/* Section 09 Start --
+--- */
+#abrar_one{
+    background: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.txt p{
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.txt h1{
+    padding: 20px 0px;
+    display: inline-block;
+    position: relative;
+}
+.txt h1::before{
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    transform: translateY(-50%);
+     content: "";
+     width: 200px;
+     height: 4px;
+     border-radius: 5px;
+     background: rgba(217, 197, 197, 0.7);
+    }
+.register{
+    font-size: 22px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.contactus h4{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 7px;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.contactus h4::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: #fff;
+}
+.contactus{
+    animation: slide-right 4000ms;
+}
+.contactus button{
+    padding: 4px 12px;
+    margin-left: 90px;
+}
+.Support{
+    padding-top: 70px;
+    animation: slide-down 4000ms;
+}
+.Support h4{
+    font-weight: 600;
+    font-size: 40px;
+}
+.android{
+    color: green;
+    font-size: 20px;
+}
+.apple{
+    color: #616161;
+    font-size: 20px;
+}
+.windows{
+    color: #0288D1;
+    font-size: 20px; 
+}
+.purchaces{
+    display: flex;
+    justify-content: center;
+}
+.purchaces button{
+    padding: 4px 20px;
+    background-color: rgba(0, 0, 0, 0.704);
+    border: 1px solid rgba(0, 0, 0, 0.704);
+}
+.ml{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.txt{
+    animation: slide-left 4000ms;
+}
+@keyframes slide-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-down{
+    from{
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+/* Section 
+09 End ---------- */
+
+/* Section 10 Start 
+------- */
+#abrar_two{
+    background: linear-gradient(to right ,#BDBDBD, #616161);
+}
+.common h2{
+    color: #3E2723; 
+    font-weight: 700; 
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    animation: slide 4000ms;
+}
+.common h3 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 40px;
+    animation: leftslide 3000ms;
+}
+.abrar_three{
+    width: 100%; 
+    padding: 70px 0px;
+    background: url(../images/app-ui-design-with-rounded-corners.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.plan{
+    background: #fbfaf874;
+    border: 2px solid #8c8c8cb7;
+    border-radius: 10px; 
+    animation: slideup 4000ms;
+}
+.plan h2{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #616161;
+}
+.plan h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #EF5350;
+    padding-bottom: 17px;
+    padding-top: 5px;
+}
+.plan span{
+    color: #FF5252;
+    font-weight: 400;
+    font-size: 24px;
+}
+.plan p{
+    color: #8D6E63;
+    font-weight: 600;
+    font-size: 24px; 
+    padding-bottom: 7px;
+}
+.plan h4{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 22px;
+    color: #455a64d4;
+}
+.ourplans{
+    display: flex;
+    justify-content: space-between;
+}
+.method {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom:12px ;
+}
+.method i{
+    font-size: 38px;
+    font-weight: 300;
+}
+.mastercard{
+    color: #e4001ba4;
+}
+.visa{
+    color: #f7a014b4;
+}
+.paypal{
+    color: #032c7fd3;
+}
+.google-pay{
+    color: #34A853;
+}
+.Purchace{
+    padding: 10px 13px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+@keyframes slide{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes leftslide{
+    from{
+        transform: translateX(50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes slideup{
+    from{
+        transform: translateX(50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/* Section
+ 10 End ----------- */
